@@ -1,0 +1,25 @@
+{
+  "name": "xatm_stats_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "runner.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.1",
+    "node-cron": "^3.0.2",
+    "telegraf": "^4.12.2",
+    "telegraf-pagination": "^1.4.1",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
